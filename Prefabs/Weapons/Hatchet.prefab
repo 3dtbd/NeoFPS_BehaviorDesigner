@@ -103,7 +103,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_ItemKey:
-    m_Value: 0
+    m_Value: 2
   m_DisplayImage: {fileID: 0}
   m_QuickSlot: -1
   m_MaxQuantity: 1
@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Damage: 25
   m_MinimumRange: 1
   m_MaximumRange: 1.2
+  m_AnimationLayerName: 
   m_TimeToImpact: 0.3
   m_RecoveryTime: 1
   m_KickDistance: 0.1

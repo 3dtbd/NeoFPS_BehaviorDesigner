@@ -154,7 +154,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_ItemKey:
-    m_Value: 0
+    m_Value: 6
   m_DisplayImage: {fileID: 0}
   m_QuickSlot: -1
   m_MaxQuantity: 1
