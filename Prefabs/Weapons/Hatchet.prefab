@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 114965478898535404}
   - component: {fileID: 114050944814520716}
   - component: {fileID: 82011237173033590}
-  - component: {fileID: 114494952084832052}
   m_Layer: 0
   m_Name: Hatchet
   m_TagString: Untagged
@@ -29,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7695264907289530036}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children: []
@@ -225,31 +224,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &114494952084832052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7695264907289530036}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5700bbc4819972642b2cbe8746a9bcee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Animator: {fileID: 0}
-  m_Damage: 15
-  m_ImpactForce: 15
-  m_Range: 1
-  m_Delay: 0.6
-  m_RecoverTime: 1
-  m_Crosshair:
-    m_Value: 0
-  m_TriggerDraw: Draw
-  m_TriggerBlock: Block
-  m_TriggerAttack: Attack
-  m_TriggerAttackHit: AttackHit
-  m_AudioSelect: {fileID: 0}
-  m_AudioAttack: {fileID: 0}
-  m_AudioBlockRaise: {fileID: 0}
-  m_AudioBlockLower: {fileID: 0}

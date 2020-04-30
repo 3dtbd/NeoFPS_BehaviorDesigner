@@ -102,3 +102,22 @@ To use your own animations using out controller:
 
   1. Create an `Animator Override Controller` from `NeoFPS_BehaviourDesigner/Animations/Core Controller (Override This)`
   2. Configure each of the animators in this controller using your own animations
+
+## Creating Weapons
+
+The integrtation comes with some example weapons in `NeoFPS_BehaviourDesigner/Prefabs`. To create your own weapons for use by your NPC do the following:
+
+  1. Ensure that your model has a root object that will be placed at Vector3.zero, that is the actual model should be a child
+  2. Add the `AiBaseWeapon` script and configure according to your desire
+  3. Add the `FpsInventoryWieldable` script and configure it appropriately
+  4. Create a prefab
+  5. Add the prefab to the Backup Item slot of the inventory of the NPC in an appropriate demo scene
+  6. Play the scene and hit pause
+  7. Position the model (not the root object) such that it is correctly held by the character
+  8. Record the models transform settings
+  9. Stop the scene
+  10. Apply the models transform settings to the prefab
+
+To have an NPC use a weapon place it into the Inventory for that NPC.
+
+(for now that is it, we need to add audio management and animation controll yet)

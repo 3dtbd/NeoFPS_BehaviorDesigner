@@ -2225,7 +2225,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4635932706270344031}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalRotation: {x: -0, y: -1, z: 0, w: -0.0000001872535}
   m_LocalPosition: {x: 0, y: 0, z: 47.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2375,13 +2375,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_WieldableRoot: {fileID: 4635932705092719740}
-  m_WieldableRootScale: 0.5
+  m_WieldableRootScale: 1
   m_DropTransform: {fileID: 4635932705092719740}
   m_DropVelocity: {x: 0, y: 2, z: 3}
   m_SlotCount: 2
   m_StartingSlotChoice: 0
   m_StartingOrder: 0000000001000000
-  m_BackupItem: {fileID: 0}
+  m_BackupItem: {fileID: 7958112511611347087, guid: beac3f57d17849f42be5716881ccc98e,
+    type: 3}
   m_StartingItems: []
   m_DuplicateBehaviour: 0
 --- !u!114 &4635932706270344029
