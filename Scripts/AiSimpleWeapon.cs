@@ -9,7 +9,7 @@ namespace NeoFPS.BehaviourDesigner
 	/// AiBasicWeapon configures a weapon for use by an AI. Drop
 	/// this component onto any weapon that an AI might use.
 	/// </summary>
-    public class AiBasicWeapon : MonoBehaviour, IAiWeapon
+    public class AiSimpleWeapon : MonoBehaviour, IAiWeapon
     {
 		[Header("Damage")]
 		[SerializeField, Tooltip("The damage the weapon does.")]
