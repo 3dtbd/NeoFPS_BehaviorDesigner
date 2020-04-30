@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Damage: 50
   m_MinimumRange: 3
   m_MaximumRange: 15
+  m_AnimationLayerName: Pistol
   m_TimeToImpact: 0.01
   m_RecoveryTime: 1
   m_KickDistance: 0.02

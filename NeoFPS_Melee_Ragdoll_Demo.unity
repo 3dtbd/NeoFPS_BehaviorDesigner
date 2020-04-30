@@ -884,6 +884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AI NPC Melee Example Ragdoll
       objectReference: {fileID: 0}
+    - target: {fileID: 5825686916044374066, guid: 844b00e65f42a1343b422c890536c07a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5825686916043955218, guid: 844b00e65f42a1343b422c890536c07a,
         type: 3}
       propertyPath: m_LocalPosition.x
